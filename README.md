@@ -18,6 +18,17 @@ sudo gcc  -o raindata raindata.c utils.c $(pkg-config --cflags --libs libmongoc-
 
 ### Esempio di performance
 
+Si lavora su una collection di circa 1M di elementi, molto interessate la differenza di performance tra la funzionalità di insert standard e quella di bulk.
+
+![alt text](https://raw.githubusercontent.com/marcoberri/mbmeteomongoc/master/resources/source.png)
+
+![alt text](https://raw.githubusercontent.com/marcoberri/mbmeteomongoc/master/resources/count.png)
+
+
+![alt text](https://raw.githubusercontent.com/marcoberri/mbmeteomongoc/master/resources/execute.png)
+
+
+
 
 ### Help
 ./raindata -h
