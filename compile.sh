@@ -1,0 +1,1 @@
+sudo gcc  -o raindata raindata.c utils.c $(pkg-config --cflags --libs libmongoc-1.0)
